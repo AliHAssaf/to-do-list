@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do List</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <!-- To Do List -->
+    <div class="container">
+        <!-- Add Tasks -->
+        <div class="add-work">
+            <!-- Add New Task -->
+            <input type="text" class="input-task" placeholder="input your task"/>
+            <button class="add-to-list">Add To List</button>
+            <!-- Clear Task In Input Field -->
+            <button class="clear">Clear</button>
+        </div>
+        <!-- Tasks List -->
+        <div class="list">
+            <!-- Old Task Edit Note -->
+            <div class="note">
+                <h4>Note <sup>*</sup></h4>
+                <p>
+                    To edit the task after add it, input your new task in the text filed above and then click on the edit button with the blue color.
+                </p>
+                <p dir="rtl">
+                    لتحرير مهمتك بعد إضافتها, ادخل مهمتك الجديدة في حقل الإدخال فوق ومن ثم غضغط على زر التحرير باللون الأزرق.
+                </p>
+            </div>
+            <!-- Tasks List Title -->
+            <h3>Your Task List Is Now:</h3>
+            <!-- Tasks List Menu -->
+            <ul class="list-menu">
+                <!-- List Item -->
+                <li>
+                    <!-- Task Title -->
+                    <p class="item-text">Watch Movie</p>
+                    <!-- complete-delete-edit buttons -->
+                    <div class="edit-items">
+                        <img src="./img/check-double-fill.svg" alt="complete" class="complete">
+                        <img src="./img/delete-bin-6-line.svg" alt="delete" class="delete">
+                        <img src="./img/edit-2-line.svg" alt="edit" class="edit">
+                    </div>
+                </li>
+                <!-- List Item -->
+                <li>
+                    <!-- Task Title -->
+                    <p class="list-item">Complete Paint</p>
+                    <!-- complete-delete-edit buttons -->
+                    <div class="edit-items">
+                        <img src="./img/check-double-fill.svg" alt="complete" class="complete">
+                        <img src="./img/delete-bin-6-line.svg" alt="delete" class="delete">
+                        <img src="./img/edit-2-line.svg" alt="edit" class="edit">
+                    </div>
+                </li>
+            </ul>
+            <!-- Tasks List Menu End -->
+        </div>
+        <!-- Tasks List End -->
+    </div>
+    <script src="./js/script.js"></script>
+</body>
+</html>
